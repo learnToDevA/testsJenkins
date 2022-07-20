@@ -31,7 +31,7 @@ pipeline {
         sh 'pwd'
         echo "Still in the same folder"
         echo "But with new env - check git diff :)"
-        sh 'cat $newENV'
+        sh 'echo $newENV'
       }
     }
 
